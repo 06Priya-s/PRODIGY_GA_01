@@ -33,6 +33,7 @@ gpt2-ai-textgen/
 
 <h2>📝 Training Dataset</h2>
 <p>A simple text file ai_dataset.txt containing paragraphs of AI-related content was used to fine-tune GPT-2, enabling the model to better understand and generate text within this domain.
+  <p>The file is given in the repo : ai_dataset.txt</p>
 </p>
 
 
