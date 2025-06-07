@@ -4,7 +4,7 @@
 
 <p>This project demonstrates how to fine-tune OpenAI's GPT-2 model on a custom dataset related to **Artificial Intelligence** and deploy it using a simple **Gradio interface**. The result is a lightweight, interactive text generator capable of producing coherent and contextually relevant text based on user prompts.</p>
 
----
+
 
 <h2>🚀 Features</h2>
 
@@ -15,19 +15,20 @@
 <ol>💾 **Model Saving & Loading**: Fine-tuned models and tokenizers are saved locally and reloaded for generation.</ol>
 <ol>☁️ **Easy Deployment**: Ready to host on Hugging Face Spaces or other platforms for public access.</ol>
 </ul>
----
+
 
 <h2>## 📁 Project Structure</h2>
 
 gpt2-ai-textgen/
+<pre>
 │
-├── ai_dataset.txt # Custom AI-related training data
-├── train.py # Fine-tuning script
-├── app.py # Gradio-based text generation UI
-├── requirements.txt # Python dependencies
-├── gpt2-ai-finetuned/ # Fine-tuned model (weights + tokenizer)
-└── README.md # Project documentation
-----
+├── ai_dataset.txt        # Custom AI-related training data
+├── train.py              # Fine-tuning script
+├── app.py                # Gradio-based text generation UI
+├── requirements.txt      # Python dependencies
+├── gpt2-ai-finetuned/    # Fine-tuned model (weights + tokenizer)
+└── README.md             # Project documentation
+</pre>
 
 
 <h2>##📝 Training Dataset</h2>
